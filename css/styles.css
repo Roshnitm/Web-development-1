@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(246, 222, 226);
+    
+}
+
+nav{
+    background-color: pink;
+    color:palevioletred;
+    padding: 25px;
+}
+
+nav li{
+    color: rgb(170, 102, 113);
+    cursor: pointer;
+}
+nav a{
+    color: rgb(170, 102, 113);
+    text-decoration: none;
+}
+a{
+    color: rgb(246, 222, 226);
+    text-decoration: none;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 50%;
+}
+nav li:hover{
+    color:rgb(130, 8, 67);
+}
+nav a:hover,a:hover{
+    color:rgb(130, 8, 67);
+}
+figure{
+    margin-top: 50px;
+    border-color: palevioletred;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+}
+.box{
+    text-align: center;
+}
+#about{
+    text-align: center;
+    padding:50px;
+}
+h2{
+    color:palevioletred; 
+}
+#box{
+    margin-top: 60px;
+    border-color: palevioletred;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    margin: 10px;
+    padding:10px;
+}
+#products{
+    text-align: center;
+}
+button{
+    background-color: palevioletred;
+    color: rgb(246, 222, 226);
+    border: none;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color:rgb(246, 222, 226);
+    background-color:rgb(170, 102, 113);
+}
+footer{
+    margin-top: 50px;
+    background-color: pink;
+    color:palevioletred;
+    padding: 25px;
+    text-align: center;
+}
+.greet{
+    color: palevioletred;
+    margin-top: 20px;
+    margin-left: 500px;
+}

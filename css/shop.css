@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(246, 222, 226);
+    
+}
+
+nav{
+    background-color: pink;
+    color:palevioletred;
+    padding: 25px;
+}
+nav li{
+    color: rgb(170, 102, 113);
+    cursor: pointer;
+}
+nav a{
+    color: rgb(170, 102, 113);
+    text-decoration: none;
+}
+nav li,h1,ul{
+    display: inline;
+}
+nav ul{
+    margin-left: 50%;
+}
+nav li:hover{
+    color:rgb(130, 8, 67);
+}
+nav a:hover{
+    color:rgb(130, 8, 67);
+}
+figure{
+    margin-top: 50px;
+    display: inline-block;
+    cursor: pointer;
+    padding:10px;
+}
+.fig{
+    text-align: center;
+}
+figure:hover{
+    border-color: palevioletred;
+    border-width: 5px;
+    border-style: solid;
+}
+.box1,.box2,.box3{
+    margin-top: 50px;
+    padding:30px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.shop{
+    text-align: center;
+    margin-top: 25px;
+}
+#ice-cream,#shakes,#cakes{
+    text-align: center;
+    margin: 50px;
+}
+.button{
+    background-color: palevioletred;
+    color: rgb(246, 222, 226);
+    border: none;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    color:rgb(246, 222, 226);
+    background-color:rgb(170, 102, 113);
+}
+footer{
+    margin-top: 50px;
+    background-color: pink;
+    color:palevioletred;
+    padding: 25px;
+    text-align: center;
+}
+h2{
+    color:palevioletred;
+    font-size: xx-large;
+}
+.sub-nav li,ul{
+    display:inline;
+}
+.sub-nav ul{
+    padding: 300px;
+}
+.sub-nav li{
+    padding: 100px;
+    font-size: 20px;
+}
+.sub-nav{
+    margin-top: 45px;
+    color: palevioletred;
+    margin-top: 25px;
+}
+.sub-nav li:hover{
+    color:whitesmoke;
+    cursor:pointer;
+    text-shadow:0 1px 2px rgb(167, 104, 145), 0 0 25px rgb(133, 51, 122), 0 0 3px rgb(176, 54, 130);
+}
+.sub-nav a{
+    color:rgb(130, 8, 67);
+    text-decoration: none;
+}
+.sub-nav a:hover{
+    color:rgb(130, 8, 67);
+    text-decoration: none;
+}
